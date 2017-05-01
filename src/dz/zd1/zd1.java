@@ -1,3 +1,5 @@
+package dz.zd1;
+
 import java.util.Scanner;
 /**Вывод с консоли.
  *
