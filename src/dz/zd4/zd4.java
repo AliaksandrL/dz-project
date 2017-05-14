@@ -36,7 +36,7 @@ public class zd4 {
                 System.out.println("Ответ равен:" + result);
                 break;
             case ('*'):
-                result = umn(num1, num2);
+                result = mul(num1, num2);
                 System.out.println("Ответ равен:" + result);
                 break;
             case ('/'):
@@ -64,7 +64,7 @@ public class zd4 {
         return num1 - num2;
     }
 
-    public static double umn(double num1, double num2) {
+    public static double mul(double num1, double num2) {
         return num1 * num2;
     }
 
