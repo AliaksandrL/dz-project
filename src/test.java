@@ -1,6 +1,7 @@
 import java.util.Scanner;
-/** Программа введет подсчет среднего балла студентов.
- *
+
+/**
+ * Программа введет подсчет среднего балла студентов.
  */
 public class test {
     public static void main(String[] args) {
@@ -12,13 +13,13 @@ public class test {
         System.out.println("Введи количество студентов: ");
         kolvo = enter.nextInt();
         while (counter < kolvo) {
-            counter ++;
+            counter++;
             System.out.print("Введи оценку" + counter + "студента:");
             ocenka = enter.nextInt();
-            if (ocenka <=10 && ocenka > 0){
+            if (ocenka <= 10 && ocenka > 0) {
                 suuma += ocenka;
             }
         }
-        System.out.println("Средний балл равен:" + suuma/kolvo);
+        System.out.println("Средний балл равен:" + suuma / kolvo);
     }
 }

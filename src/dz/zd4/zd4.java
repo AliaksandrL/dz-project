@@ -1,12 +1,17 @@
 package dz.zd4;
 
 import java.util.Scanner;
-/** Создание калькулятора.
+
+/**
+ * Created calculator by sasha on 11.05.2017.
  *
+ * @author sasha
+ * @version 1.0
+ * @since JDK 1.8
  */
 public class zd4 {
     public static void main(String[] args)
-    throws java.io.IOException {
+            throws java.io.IOException {
 
         Scanner enter = new Scanner(System.in);
         char operation;
@@ -45,18 +50,26 @@ public class zd4 {
 
 
     }
-    //Создали методы для вычисления каждой отдельной операции калькулятора.
-        public static double sum (double num1, double num2) {
-return num1 + num2;
+
+    /**
+     * We created methods for calculating each separate operation of the calculator.
+     * @return the sum of entered numbers.
+     */
+
+    public static double sum(double num1, double num2) {
+        return num1 + num2;
     }
-        public static double min (double num1, double num2) {
-return num1 - num2;
-}
-        public static double umn (double num1, double num2) {
-return num1 * num2;
-}
-        public static double del (double num1, double num2) {
-return num1 / num2;
-}
+
+    public static double min(double num1, double num2) {
+        return num1 - num2;
+    }
+
+    public static double umn(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public static double del(double num1, double num2) {
+        return num1 / num2;
+    }
 }
 
